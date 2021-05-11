@@ -2,9 +2,9 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 
 const AboutPage = () => (
-  <Layout title="About | Next.js + TypeScript Example">
+  <Layout title="About | ReferencePH information">
     <h1>About</h1>
-    <p>This is the about page</p>
+    <p>Ang site na ito ay ginawa "for the good of the society". Bitaw, wala na talaga akong maisip na website kung san pwede akong magkapera.</p>
     <p>
       <Link href="/">
         <a>Go home</a>

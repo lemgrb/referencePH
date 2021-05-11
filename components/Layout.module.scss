@@ -1,0 +1,47 @@
+.footer {
+  margin-top: 1rem;
+  background: #efefef;
+  background: linear-gradient(180deg, rgba(239,239,239,1) 0%, rgba(248,249,250,1) 100%);
+  padding:1rem;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  span {
+    font-size: 0.85rem;
+    color: #333333;
+  }
+
+  div:nth-child(1) {
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    text-align: left;
+  }
+}
+
+.header {
+  margin-bottom: 1rem;
+  nav {
+    padding: 1rem;
+  }
+}
+
+
+.anchor-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
