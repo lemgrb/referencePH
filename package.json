@@ -11,6 +11,7 @@
     "@types/aos": "^3.0.3",
     "aos": "^2.3.4",
     "bootstrap": "^5.0.0-beta3",
+    "firebase": "^8.6.0",
     "next": "latest",
     "react": "^17.0.1",
     "react-bootstrap-icons": "^1.4.1",
