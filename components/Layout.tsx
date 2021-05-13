@@ -61,7 +61,7 @@ const Layout = ({ children, title = 'ReferencePH', home = false}: Props) => (
         <h5>Hey!</h5>
         <p>If you have a feature request or found an issue, please contact us on our Twitter and Facebook pages.</p>
         <p>If you like this site maybe you can <a href="https://www.buymeacoffee.com/lemuelb">Buy me a coffee</a>? <EmojiSmile /></p>
-        <span>&copy; 2021 ReferencePH Version 0.0.5</span>
+        <span>&copy; 2021 ReferencePH Version 0.0.6</span>
       </div>
     </footer>
   </div>

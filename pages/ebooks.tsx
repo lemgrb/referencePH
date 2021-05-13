@@ -37,7 +37,10 @@ return (
   <Layout title="ReferencePH | Free EPUB books">
     <main>
       <Row>
-        <Col><p>Only 1 book is available.</p></Col>
+        <Col>
+        <p className="callout callout-info">You need to download an eReader app like <strong>Google Play Books</strong> on your Android or iOS phone to be able to read EPUB file. See <a href="/guides">this guide</a>
+        </p>
+        </Col>
       </Row>
       <Row>
         {cards.map((card) => (
