@@ -12,7 +12,8 @@ type Props = {
 }
 
 const Layout = ({ children, title = 'ReferencePH', home = false}: Props) => (
-  <div className="container-fluid">
+  <>
+  <div className="container">
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
@@ -37,12 +38,15 @@ const Layout = ({ children, title = 'ReferencePH', home = false}: Props) => (
             <Link href="/" passHref><Nav.Link>Home</Nav.Link></Link>
             <Link href="#" passHref><Nav.Link>Open Data Sets</Nav.Link></Link>
             <Link href="/ebooks" passHref><Nav.Link>eBooks</Nav.Link></Link>
+            <Link href="/guides" passHref><Nav.Link>Guides</Nav.Link></Link>
             <Link href="/about" passHref><Nav.Link>About</Nav.Link></Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
     </header>
     {children}
+  </div>
+  <div className="container-fluid">
     <footer className={`row ${styles.footer}`}>
       <div className="col-md-4">
         <div className={styles.footer_logo}>
@@ -57,10 +61,11 @@ const Layout = ({ children, title = 'ReferencePH', home = false}: Props) => (
         <h5>Hey!</h5>
         <p>If you have a feature request or found an issue, please <a href="https://github.com/lemgrb/referencePH/issues/new/choose" target="_blank">submit an issue</a></p>
         <p>If you like this site maybe you can <a href="#">Buy me a coffee</a>? <EmojiSmile /></p>
-        <span>&copy; 2021 ReferencePH</span>
+        <span>&copy; 2021 ReferencePH Version 0.0.3</span>
       </div>
     </footer>
   </div>
+  </>
 )
 
 export default Layout

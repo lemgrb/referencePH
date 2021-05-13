@@ -51,3 +51,10 @@ $font-family-monospace:nSFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mon
 // scss-docs-end import-stack
 
 // 5. Add additional custom code here
+
+
+@media screen and (min-width: 768px) {
+  .card-img-top {
+    height: 40vh;
+  }
+}

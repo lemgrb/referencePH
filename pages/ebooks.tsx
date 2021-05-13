@@ -64,8 +64,11 @@ useEffect(()=>{
 
 
 return (
-  <Layout title="ReferencePH | Free EPUB books" home={true}>
+  <Layout title="ReferencePH | Free EPUB books">
     <main>
+      <Row>
+        <Col><p>Sorry, this section is still in progress :)</p></Col>
+      </Row>
       <Row>
         {cards.map((card) => (
           <Col key={card.id} xs={6} md={2} className="mb-2" data-aos="flip-left">
