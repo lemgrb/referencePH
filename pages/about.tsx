@@ -5,7 +5,7 @@ const AboutPage = () => (
   <Layout title="About | ReferencePH information">
     <h1>About</h1>
     <p>I noticed many Philippine Government websites still release data on their site as PDF (unstructured). I feel like some users will benefit if I transform them to more open formats. For example, for eBooks, convert from PDF or webpage (with no proper formatting) to EPUB (which can be used using any ePUB reader app). Another example is from PDF to CSV/JSON (structured data) so it can be used in data analytics and/or visualization. I might also create data visualization microsites myself so this is where I plan to publish them.</p>
-    <p>If you find value in this site, you might want to <a href="#">Buy me a coffee?</a> :)</p>
+    <p>If you find value in this site, you might want to <a href="https://www.buymeacoffee.com/lemuelb">Buy me a coffee?</a> :)</p>
 
     <h2>Other Philippine Government open data sites</h2>
     <ul>
