@@ -8,3 +8,13 @@ export type User = {
   id: number
   name: string
 }
+
+export type Book = {
+  id: number
+  title: string
+  author: string
+  description: string
+  topic: string
+  cover: string
+  url: string
+}

@@ -1,60 +1,30 @@
 import Layout from '../components/Layout'
 import {useState, useEffect} from 'react'
-import {Card, Row, Col} from 'react-bootstrap-v5'
+import {Row, Col} from 'react-bootstrap-v5'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import BookItem from '../components/BookItem'
 
 const EBooks = () => {
 
 const [cards] = useState([
   {
     id: 1,
-    title: 'Title',
-    description: 'Lorem ipsum dolor',
-    topic: 'topic1',
-    cover: 'https://via.placeholder.com/200x300'
+    title: '1987 Philippine Constitution',
+    author: 'No author',
+    description: '1987 Philippine Constitution',
+    topic: 'Law',
+    cover: '/covers/1987-Philippine-Constitution.jpg',
+    url: 'https://drive.google.com/file/d/130RYoiaG0fJy4lM-fUQ-cXqb2Xp_Umqn/view?usp=sharing',
   },
   {
     id: 2,
-    title: 'Title',
+    title: 'Coming soon',
+    author: 'No author',
     description: 'Lorem ipsum dolor',
     topic: 'topic1',
-    cover: 'https://via.placeholder.com/200x300'
-  },
-  {
-    id: 3,
-    title: 'Title',
-    description: 'Lorem ipsum dolor',
-    topic: 'topic1',
-    cover: 'https://via.placeholder.com/200x300'
-  },
-  {
-    id: 4,
-    title: 'Title',
-    description: 'Lorem ipsum dolor',
-    topic: 'topic1',
-    cover: 'https://via.placeholder.com/200x300'
-  },
-  {
-    id: 5,
-    title: 'Title',
-    description: 'Lorem ipsum dolor',
-    topic: 'topic1',
-    cover: 'https://via.placeholder.com/200x300'
-  },
-  {
-    id: 6,
-    title: 'Title',
-    description: 'Lorem ipsum dolor',
-    topic: 'topic1',
-    cover: 'https://via.placeholder.com/200x300'
-  },
-  {
-    id: 7,
-    title: 'Title',
-    description: 'Lorem ipsum dolor',
-    topic: 'topic1',
-    cover: 'https://via.placeholder.com/200x300'
+    cover: 'https://via.placeholder.com/200x300',
+    url: '',
   },
 ])
 
@@ -67,24 +37,11 @@ return (
   <Layout title="ReferencePH | Free EPUB books">
     <main>
       <Row>
-        <Col><p>Sorry, this section is still in progress :)</p></Col>
+        <Col><p>Only 1 book is available.</p></Col>
       </Row>
       <Row>
         {cards.map((card) => (
-          <Col key={card.id} xs={6} md={2} className="mb-2" data-aos="flip-left">
-            <Card className="mb-2">
-              <Card.Img variant="top" src={card.cover} />
-              <Card.Body>
-                <Card.Title>{card.title}</Card.Title>
-                <Card.Text>{card.description} </Card.Text>
-              </Card.Body>
-              {(card.topic)?
-              <Card.Footer>
-                <span className="badge bg-dark">{card?.topic}</span>
-              </Card.Footer>
-              : ' '}
-            </Card>
-          </Col>
+          <BookItem key={card.id} card={card} />
         ))}
       </Row>
     </main>
