@@ -1,6 +1,10 @@
 .card {
   border: none;
   background: transparent;
+  p {
+    font-size: 0.75rem;
+    margin-bottom: 0;
+  }
 }
 
 .card-body {
@@ -16,3 +20,4 @@
 .card-subtitle {
   margin-bottom: 0.25rem;
 }
+

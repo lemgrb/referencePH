@@ -14,7 +14,9 @@ const BookItem = ({ card }: Props) => (
         <Card.Body className={styles['card-body']}>
           <Card.Title as="h6">{card.title}</Card.Title>
           {card.author?<Card.Subtitle as="h6" className={`text-muted ${styles['card-subtitle']}`}>{card.author}</Card.Subtitle>:''}
-          {(card.url)?<p><a className="btn btn-sm btn-primary" href={card.url}>Download EPUB</a></p>:''}
+          {card.description?<p>{card.description}</p>:''}
+          {(card.downloadUrl)?<p><a className="btn btn-sm btn-primary" href={card.downloadUrl}>Download EPUB</a></p>:''}
+          {(card.redirectUrl)?<p><a className="btn btn-sm btn-primary" href={card.redirectUrl}>View</a></p>:''}
         </Card.Body>
         {(card.topic)?
         <Card.Footer className={styles['card-footer']}>

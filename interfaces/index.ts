@@ -16,5 +16,6 @@ export type Book = {
   description: string
   topic: string
   cover: string
-  url: string
+  downloadUrl: string
+  redirectUrl: string
 }
