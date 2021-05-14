@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import styles from './Layout.module.scss'
-import {GraphUp, ArrowsExpand, EmojiSmile, Twitter, Facebook, Book} from 'react-bootstrap-icons'
+import {GraphUp, ArrowsExpand, Twitter, Facebook, Book} from 'react-bootstrap-icons'
 import {Navbar, Nav} from 'react-bootstrap-v5'
 
 type Props = {
@@ -28,7 +28,7 @@ const Layout = ({ children, title = 'ReferencePH', home = false}: Props) => (
           width='42px'
           height='42px'
           />
-          <span>&nbsp;ReferencePH</span>
+          <span>&nbsp;ReferencePH 🇵🇭</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <ArrowsExpand />
@@ -60,7 +60,7 @@ const Layout = ({ children, title = 'ReferencePH', home = false}: Props) => (
       <div className="col-md-8">
         <h5>Hey!</h5>
         <p>If you have a feature request or found an issue, please contact us on our Twitter and Facebook pages.</p>
-        <p>If you like this site maybe you can <a href="https://www.buymeacoffee.com/lemuelb">Buy me a coffee</a>? <EmojiSmile /></p>
+        <p>If you find value in this site, might wanna <a href="https://www.buymeacoffee.com/lemuelb">Buy me a coffee</a>? 😁</p>
         <span>&copy; 2021 ReferencePH Version 0.0.6</span>
       </div>
     </footer>
