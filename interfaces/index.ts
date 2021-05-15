@@ -19,3 +19,22 @@ export type Book = {
   downloadUrl: string
   redirectUrl: string
 }
+
+export type DataSetItemType = {
+  type: string
+  path: string
+  version: string
+}
+
+
+export type DataSetItem = {
+  id: number
+  title: string
+  author: string
+  description: string
+  source: string
+  path: string
+  formats: Array<DataSetItemType>
+  topics: Array<string>
+  cover: string
+}

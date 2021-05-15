@@ -1,0 +1,32 @@
+.a, .a:hover {
+  text-decoration: none;
+  color: #333333;
+}
+
+.card {
+  background: #ffffff;
+  cursor: hand;
+  p {
+    font-size: 0.75rem;
+    margin-bottom: 0;
+  }
+}
+
+.card:hover {
+  box-shadow: 0 0 0.75rem 0.1rem #e6dd3b;
+}
+
+.card-body {
+  padding: 0.5rem;
+}
+
+.card-footer {
+  padding: 0.5rem;
+  background-color: transparent;
+  border-top: 0;
+}
+
+.card-subtitle {
+  margin-bottom: 0.25rem;
+}
+

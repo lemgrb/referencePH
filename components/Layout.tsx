@@ -36,7 +36,7 @@ const Layout = ({ children, title = 'ReferencePH', home = false}: Props) => (
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Link href="/" passHref><Nav.Link>Home</Nav.Link></Link>
-            <Link href="#" passHref><Nav.Link><GraphUp className="d-md-none me-2"/>Open Data Sets</Nav.Link></Link>
+            <Link href="/open-data" passHref><Nav.Link><GraphUp className="d-md-none me-2"/>Open Data Sets</Nav.Link></Link>
             <Link href="/ebooks" passHref><Nav.Link><Book className="d-md-none me-2"/>&nbsp;eBooks</Nav.Link></Link>
             <Link href="/guides" passHref><Nav.Link>Guides</Nav.Link></Link>
             <Link href="/about" passHref><Nav.Link>About</Nav.Link></Link>

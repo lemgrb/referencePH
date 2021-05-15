@@ -1,0 +1,134 @@
+[
+  {
+    "year": 2019,
+    "office": "Office of the President",
+    "opinion": "Unqualified opinion",
+    "opinion_long": "The auditor rendered an unqualified opinion on the fairness of the presentation of the financial statements of OP as at December 31, 2019"
+  },
+  {
+    "year": 2019,
+    "office": "Office of the Vice President",
+    "opinion": "Unqualified opinion",
+    "opinion_long": "The auditor rendered an unqualified opinion on the fairness of presentation of the financial statements of OVP as at December 31, 2019"
+  },
+  {
+    "year": 2018,
+    "office": "Office of the President",
+    "opinion": "Unqualified opinion",
+    "opinion_long": "The auditor rendered an unqualified opinion on the fairness of the presentation of the financial statements."
+  },
+  {
+    "year": 2018,
+    "office": "Office of the Vice President",
+    "opinion": "Unqualified opinion",
+    "opinion_long": "The auditor rendered an unqualified opinion on the fairness of the presentation of the financial statements."
+  },
+  {
+    "year": 2017,
+    "office": "Office of the President",
+    "opinion": "Unqualified opinion",
+    "opinion_long": "The auditor rendered an unqualified opinion on the fairness of the presentation of the financial statements of OP as at December 31, 2017"
+  },
+  {
+    "year": 2017,
+    "office": "Office of the Vice President",
+    "opinion": "Unqualified opinion",
+    "opinion_long": "The auditor rendered an unqualified opinion on the fairness of the presentation of the financial statements of OVP as at December 31, 2017"
+  },
+  {
+    "year": 2016,
+    "office": "Office of the President",
+    "opinion": "Qualified opinion",
+    "opinion_long": "The Auditor rendered a qualified opinion on the fairness of presentation of the financial statements of the OP as at December 31, 2016 due to the audit observations as discussed in the succeeding paragraphs, which affected the fair presentation of the financial statements."
+  },
+  {
+    "year": 2016,
+    "office": "Office of the Vice President",
+    "opinion": "Qualified opinion",
+    "opinion_long": "The auditor rendered a qualified opinion on the fairness of presentation of the financial statements of the OVP for CY 2016 due to the recognition in the books of goods and services that were not yet received by the agency, which overstated the balances of the accounts Office Supplies Inventory by ?16,361.00. Welfare Goods for Distribution by ?1,098,225.00, Traveling Expenses-Local by ?69,960.00, Representation Expenses by ?1,943,320.00, and Accounts Payable by ?3,127,866.00 as at December 31, 2016."
+  },
+  {
+    "year": 2015,
+    "office": "Office of the President",
+    "opinion": "Qualified opinion",
+    "opinion_long": "The Auditor rendered a qualified opinion on the fairness of presentation of financial statements of the OP as at December 31, 2015 due to the audit observations as discussed in the succeeding paragraphs, which affected the fair presentation of the financial statements."
+  },
+  {
+    "year": 2015,
+    "office": "Office of the Vice President",
+    "opinion": "Qualified opinion",
+    "opinion_long": "The auditor rendered a qualified opinion on the fairness of presentation of he OVP's financial statement of CY 2015 because the Inventories and Property, Plants and Equipment (PPE) accounts balances amounting to ?2,190,126.37 and ?35,338,311.44, respectively, as at December 31, 2015 could not be established due to OVP Property Unit's non-conduct of the required physical count of the Inventories and PPE. Further, Information Technology (IT) Equipment from the Department of Science and Technology-Information and Communications Technology Office (DOST-ICTO) amounting to ?1,299,888.03 were not recognized in the books of the agency as at December 31, 2015."
+  },
+  {
+    "year": 2014,
+    "office": "Office of the President",
+    "opinion": "Qualified opinion",
+    "opinion_long": "The Auditor rendered a qualified opinion on the fairness of presentation of financial statements of the OP as at December 31, 2014 due to the audit observations as discussed in the succeeding paragraphs, which affected the fair presentation of the financial statements."
+  },
+  {
+    "year": 2014,
+    "office": "Office of the Vice President",
+    "opinion": "Qualified opinion",
+    "opinion_long": "The auditor rendered a qualified opinion on the fairness of presentation of the OVP's financial statements as of December 31, 2014, because the PPE and inventory accounts balances amounting to ?11,865,627.19 and ?1,898,816.20, respectively, as at December 31, 2014 could not be established due to OVP Property Unit's non-conduct of the required physical count of the PPE. Several items of PPE of undetermined amount were observed to be unserviceable and beyond economic repair. A considerable quantity of medicines were not properly stored and were exposed to risk of damages and loss."
+  },
+  {
+    "year": 2013,
+    "office": "Office of the President",
+    "opinion": "Qualified opinion",
+    "opinion_long": "The Auditor rendered a qualified opinion on the fairness of presentation of financial statements of the OP as at December 31, 2013 due to audit observations as discussed in the succeeding paragraphs, which affected the fair presentation of the financial statements."
+  },
+  {
+    "year": 2013,
+    "office": "Office of the Vice President",
+    "opinion": "Unqualified opinion",
+    "opinion_long": "The auditor rendered an unqualified opinion on the fairness of presentation of the OVP's financial statements as of December 31, 2013."
+  },
+  {
+    "year": 2012,
+    "office": "Office of the President",
+    "opinion": "Qualified opinion",
+    "opinion_long": "The Auditor rendered a qualified opinion on the fairness of presentation of financial statements of OP as at December 31, 2012 due to audit observations as discussed in the succeeding paragraphs, which affected the fair presentation of the financial statements."
+  },
+  {
+    "year": 2012,
+    "office": "Office of the Vice President",
+    "opinion": "Unqualified opinion",
+    "opinion_long": "The auditor rendered an unqualified opinion on the fairness of presentation of the OVP's financial statements as of December 31, 2012"
+  },
+  {
+    "year": 2011,
+    "office": "Office of the President",
+    "opinion": "Qualified opinion",
+    "opinion_long": "The Auditor rendered a qualified opinion on the fairness of presentation of financial statements of OP as of December 31, 2011 due to audit observations as discussed in the succeeding paragraphs, which affected the fair presentation of the financial statements."
+  },
+  {
+    "year": 2011,
+    "office": "Office of the Vice President",
+    "opinion": "Unqualified opinion",
+    "opinion_long": "The auditor rendered an unqualified opinion on the fairness of presentation of the OVP's financial statements."
+  },
+  {
+    "year": 2010,
+    "office": "Office of the President",
+    "opinion": "Qualified opinion",
+    "opinion_long": "The Auditor rendered a qualified opinion on the fairness of presentation of the financial statements of OP as of December 31, 2010 due to the following audit observations, which affected the fair presentation of the financial statements."
+  },
+  {
+    "year": 2010,
+    "office": "Office of the Vice President",
+    "opinion": "Unqualified opinion",
+    "opinion_long": "The auditor rendered an unqualified opinion on the fairness of presentation of the OVP's financial statements."
+  },
+  {
+    "year": 2009,
+    "office": "Office of the President",
+    "opinion": "Qualified opinion",
+    "opinion_long": "The Auditor rendered a qualified opinion on the fairness of presentation of financial statements of OP as of December 31, 2010 due to the following audit observations, which affected the fair presentation of the financial statements."
+  },
+  {
+    "year": 2009,
+    "office": "Office of the Vice President",
+    "opinion": "Unqualified opinion",
+    "opinion_long": "The auditor rendered a qualified opinion on the fairness of presentation of the OVP's financial statements due to matters discussed in the subsequent paragraphs."
+  }
+]

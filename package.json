@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "@types/aos": "^3.0.3",
+    "@types/react-table": "^7.7.0",
     "aos": "^2.3.4",
+    "axios": "^0.21.1",
     "bootstrap": "^5.0.0-beta3",
     "firebase": "^8.6.0",
     "next": "latest",
@@ -17,6 +19,7 @@
     "react-bootstrap-icons": "^1.4.1",
     "react-bootstrap-v5": "^1.4.0",
     "react-dom": "^17.0.1",
+    "react-table": "^7.7.0",
     "sass": "^1.32.12"
   },
   "devDependencies": {
