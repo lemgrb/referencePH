@@ -22,6 +22,19 @@ const [dataSets] = useState([
     topics: ['coa','audit'],
     cover: 'https://via.placeholder.com/40',
   },
+  {
+    id: 2,
+    title: 'LRT-2 East Extension Timeline',
+    author: 'LRTA',
+    description: 'Project status since 2016',
+    source: 'https://www.lrta.gov.ph',
+    path: '/data/Lrt2EastExtensionTimeline',
+    formats: [
+      { type: 'csv', path: '', version: '1.0' },
+    ],
+    topics: ['buildbuildbuild','lrt-2'],
+    cover: 'https://via.placeholder.com/40',
+  },
 ])
 
 useEffect(()=>{
