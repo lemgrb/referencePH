@@ -18,7 +18,8 @@ const Table = ({columns, data}) => {
     - react-table doesn't have UI, it's headless. We just need to put the react-table props from the Hooks, and it will do its magic automatically
   */
   return (
-    <table {...getTableProps()} className="table table-striped table-sm">
+    <div className="table-responsive" style={{fontSize: "0.7rem"}}>
+      <table {...getTableProps()} className="table table-striped table-sm">
       <thead>
         {headerGroups.map(headerGroup => (
           <tr {...headerGroup.getHeaderGroupProps()}>
@@ -41,6 +42,7 @@ const Table = ({columns, data}) => {
         })}
       </tbody>
     </table>
+    </div>
   );
 }
 export default Table
