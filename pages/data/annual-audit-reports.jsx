@@ -52,7 +52,7 @@ const AnnualDataReports = () => {
   },[])
 
   return (
-    <Layout>
+    <Layout title="ReferencePH | Data | Annual Audit Reports for the Office of the President and Office of the Vice President" metaDescription="Yearly audit for the Office of the President and Office of the Vice President">
       <Row>
         <Col md={3}>
           <Card className="mb-2">

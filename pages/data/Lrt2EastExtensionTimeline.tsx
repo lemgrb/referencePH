@@ -3,7 +3,7 @@ import {Row, Col, Card} from 'react-bootstrap-v5'
 
 const Lrt2EastExtensionTimeline = () => {
   return (
-    <Layout>
+    <Layout title="LRT-2 East Extension timeline" metaDescription="LRT-2 East Extension project progress since 2016">
       <Row>
         <Col md={3}>
           <Card className="mb-2">

@@ -9,13 +9,15 @@ type Props = {
   children?: ReactNode
   title?: string
   home?: boolean
+  metaDescription?: string
 }
 
-const Layout = ({ children, title = 'ReferencePH', home = false}: Props) => (
+const Layout = ({ children, title = 'ReferencePH', home = false, metaDescription = ''}: Props) => (
   <>
   <div className="container">
     <Head>
       <title>{title}</title>
+      <meta name="description" content={metaDescription} />
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link rel="shortcut icon" type="image/jpg" href="favicon.jpg" />
@@ -50,7 +52,7 @@ const Layout = ({ children, title = 'ReferencePH', home = false}: Props) => (
     <footer className={`row ${styles.footer}`}>
       <div className="col-md-4">
         <div className={styles.footer_logo}>
-          <h5>Follow us</h5>
+          <h2>Follow us</h2>
         </div>
         <ul>
           <li><a href="https://www.facebook.com/Reference-PH-109850137936783" target="_blank"><Facebook color="#4267B2" size={32} />&nbsp;Facebook</a></li>
@@ -58,7 +60,7 @@ const Layout = ({ children, title = 'ReferencePH', home = false}: Props) => (
         </ul>
       </div>
       <div className="col-md-8">
-        <h5>Hey!</h5>
+        <h2>Hey!</h2>
         <p>If you have a feature request or found an issue, please contact us on our Twitter and Facebook pages.</p>
         <p>If you find value in this site, might wanna <a href="https://www.buymeacoffee.com/lemuelb">Buy me a coffee</a>? 😁</p>
         <span>&copy; 2021 ReferencePH Version 0.0.6</span>

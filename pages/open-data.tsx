@@ -56,7 +56,7 @@ useEffect(()=>{
 
 
 return (
-  <Layout title="ReferencePH | Data sets list">
+  <Layout title="ReferencePH | Data sets">
     <Row>
       {dataSets.map((dataSetItem) => (
         <DataSetItemCard key={dataSetItem.id} card={dataSetItem} />

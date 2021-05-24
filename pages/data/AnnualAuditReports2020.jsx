@@ -53,7 +53,7 @@ const AnnualDataReports2020 = () => {
   },[])
 
   return (
-    <Layout>
+    <Layout title="ReferencePH | Data | 2020 Annual Audit Reports" metaDescription="Annual Audit Reports by Commission on Audit for 2020. This is a living document and will be updated whenever data becomes available">
       <Row>
         <Col>
         <p className="callout callout-info"><strong>This is a living document.</strong> Data will be updated when new information becomes available. I will add State Univ. and Colleges soon</p>

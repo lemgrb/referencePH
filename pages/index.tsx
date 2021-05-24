@@ -6,7 +6,7 @@ import Link from 'next/link'
 const IndexPage = () => {
 
 return (
-  <Layout title="ReferencePH | Free EPUB books and others" home={true}>
+  <Layout title="ReferencePH | Free EPUB books and others" home={true} metaDescription="Free EPUB books and data sets about Philippine Government matters">
     <Row> 
       <Col md={4} className="d-flex align-items-stretch">
         <Card className="mb-2">

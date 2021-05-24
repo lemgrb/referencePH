@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 import { Row, Col} from 'react-bootstrap-v5'
 
 const GuidesPage = () => (
-  <Layout title="Guides | Some guides">
+  <Layout title="ReferencePH | Guide to referencePH site contents" metaDescription="Guides about the contents found on referencePH.netlify.app">
     <h2 id="what-is-epub">What is EPUB?</h2>
     <p>"EPUB is an e-book file format that uses the ".epub" file extension. The term is short for electronic publication and is sometimes styled ePub. EPUB is supported by many e-readers, and compatible software is available for most smartphones, tablets, and computers." - Wikipedia</p>
     <h3>But why EPUB?</h3>
