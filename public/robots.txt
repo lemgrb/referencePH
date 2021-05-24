@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: *.json
-Disallow: *.csv
+Disallow: 
 
 Sitemap: https://referenceph.netlify.app/sitemap.xml
