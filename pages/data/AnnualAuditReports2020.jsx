@@ -26,6 +26,10 @@ const AnnualDataReports2020 = () => {
             accessor: "year"
           },
           {
+            Header: "Category",
+            accessor: "sublevel"
+          },
+          {
             Header: "Office",
             accessor: "office"
           },
