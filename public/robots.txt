@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: https://referenceph.netlify.app/sitemap.xml
+Sitemap: https://referenceph.netlify.app/sitemap-custom.xml
