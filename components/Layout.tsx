@@ -55,8 +55,8 @@ const Layout = ({ children, title = 'ReferencePH', home = false, metaDescription
           <h2>Follow us</h2>
         </div>
         <ul>
-          <li><a href="https://www.facebook.com/Reference-PH-109850137936783" target="_blank"><Facebook color="#4267B2" size={32} />&nbsp;Facebook</a></li>
-          <li><a href="https://twitter.com/referencePH" target="_blank"><Twitter color="#1DA1F2" size={32} />&nbsp;Twitter</a></li>
+          <li><a href="https://www.facebook.com/Reference-PH-109850137936783" target="_blank" rel="noopener noreferrer"><Facebook color="#4267B2" size={32} />&nbsp;Facebook</a></li>
+          <li><a href="https://twitter.com/referencePH" target="_blank" rel="noopener noreferrer"><Twitter color="#1DA1F2" size={32} />&nbsp;Twitter</a></li>
         </ul>
       </div>
       <div className="col-md-8">
