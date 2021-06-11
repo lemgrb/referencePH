@@ -1,8 +1,6 @@
 import Layout from '../components/Layout'
-import {useState, useEffect} from 'react'
+import {useState} from 'react'
 import {Row, Col} from 'react-bootstrap-v5'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
 import BookItem from '../components/BookItem'
 
 const EBooks = () => {
@@ -29,11 +27,6 @@ const [cards] = useState([
     redirectUrl: 'https://mainlib.upd.edu.ph/the-philippine-islands-1493-1898-blair-and-robertson/',
   },
 ])
-
-useEffect(()=>{
-  AOS.init();
-},[]);
-
 
 return (
   <Layout title="ReferencePH | Free EPUB books">

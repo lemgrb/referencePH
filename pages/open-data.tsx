@@ -1,8 +1,6 @@
 import Layout from '../components/Layout'
-import {useState, useEffect} from 'react'
+import {useState} from 'react'
 import {Row} from 'react-bootstrap-v5'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
 import DataSetItemCard from '../components/DataSetItemCard'
 
 const OpenData = () => {
@@ -49,11 +47,6 @@ const [dataSets] = useState([
     cover: 'https://via.placeholder.com/40',
   },
 ])
-
-useEffect(()=>{
-  AOS.init();
-},[]);
-
 
 return (
   <Layout title="ReferencePH | Data sets">

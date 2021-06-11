@@ -8,9 +8,7 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "@types/aos": "^3.0.3",
     "@types/react-table": "^7.7.0",
-    "aos": "^2.3.4",
     "axios": "^0.21.1",
     "bootstrap": "^5.0.0-beta3",
     "firebase": "^8.6.0",

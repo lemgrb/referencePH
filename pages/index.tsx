@@ -1,6 +1,5 @@
 import Layout from '../components/Layout'
 import {Card, Row, Col} from 'react-bootstrap-v5'
-import 'aos/dist/aos.css'
 import Link from 'next/link'
 
 const IndexPage = () => {

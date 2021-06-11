@@ -8,7 +8,7 @@ type Props = {
 }
 
 const BookItem = ({ card }: Props) => (
-    <Col xs={6} md={2} className="mb-2" data-aos="flip-left">
+    <Col xs={6} md={2} className="mb-2">
       <Card className={`mb-2 ${styles.card}`} >
         <Card.Img variant="top" src={card.cover} />
         <Card.Body className={styles['card-body']}>

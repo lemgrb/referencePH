@@ -11,7 +11,7 @@ type Props = {
 
 const DataSetItemCard = ({ card }: Props) => {
   return(
-      <Col xs={12} md={3} className="mb-2" data-aos="fade-left">
+      <Col xs={12} md={3} className="mb-2">
         <Link href={card.path}>
         <a className={styles.a}>
           <Card className={`mb-2 ${styles.card}`} >
