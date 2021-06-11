@@ -46,6 +46,19 @@ const [dataSets] = useState([
     topics: ['coa','audit'],
     cover: 'https://via.placeholder.com/40',
   },
+  {
+    id: 4,
+    title: 'June 10, 2021 Pfizer Allocation',
+    author: 'DOH',
+    description: 'DOH',
+    source: '',
+    path: '/data/June102021Pfizer',
+    formats: [
+      { type: 'csv', path: '', version: '1.0' },
+    ],
+    topics: ['doh','vaccine'],
+    cover: 'https://via.placeholder.com/40',
+  },
 ])
 
 return (
